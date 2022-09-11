@@ -1,0 +1,33 @@
+{
+  "name": "vite-typescript-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "autoprefixer": "^10.4.8",
+    "browserslist": "^4.21.3",
+    "less": "^4.1.3",
+    "mockjs": "^1.1.0",
+    "postcss": "^8.4.16",
+    "postcss-cli": "^10.0.0",
+    "postcss-preset-env": "^7.8.1",
+    "postcss-pxtorem": "^6.0.0",
+    "sass": "^1.54.9",
+    "stylelint": "^14.11.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^28.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.6.4",
+    "utools-api-types": "^3.0.0",
+    "vite": "^3.1.0",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-mock": "^2.9.6",
+    "vite-plugin-utools": "*"
+  }
+}
