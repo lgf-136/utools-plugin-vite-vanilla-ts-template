@@ -2,7 +2,9 @@ const { defineConfig } = require('vite');
 const path = require('path');
 
 // import { createHtmlPlugin } from 'vite-plugin-html';
-const { createHtmlPlugin } = require('vite-plugin-html');
+// const { createHtmlPlugin } = require('vite-plugin-html'); // 这个插件有问题： Internal server error: ejs:7
+// import {ViteEjsPlugin} from "vite-plugin-ejs";
+const { ViteEjsPlugin } = require('vite-plugin-ejs');
 // import { viteMockServe } from 'vite-plugin-mock';
 const { viteMockServe } = require('vite-plugin-mock');
 
@@ -19,12 +21,16 @@ module.exports = defineConfig({
     },
   },
   plugins: [
-    createHtmlPlugin({
-      inject: {
-        data: {
-          title: 'index',
-        },
-      },
+    // createHtmlPlugin({
+    //   inject: {
+    //     data: {
+    //       title: 'index',
+    //     },
+    //   },
+    // }),
+    ViteEjsPlugin({
+      domain: 'example.com',
+      title: 'index',
     }),
     viteMockServe(),
   ],
