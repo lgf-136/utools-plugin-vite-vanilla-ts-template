@@ -2,6 +2,11 @@
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/utools-plugin-vite-vanilla-ts-template)
 
+vs-code plugin for http api test
+
+1. REST Client
+2. Thunder Client
+
 [Vite 世界指南（带你从 0 到 1 深入学习 vite）](https://www.bilibili.com/video/BV1GN4y1M7P5?p=7&spm_id_from=pageDriver&vd_source=6cecd1f17a6c0ef08a944dd92199a516)
 
 https://blog.csdn.net/mouday/article/details/126336560

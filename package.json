@@ -7,9 +7,11 @@
     "serve": "vite --mode development",
     "build": "tsc && vite build --mode production",
     "preview": "vite preview --mode production",
-    "json-mock": "json-server mock/db.json"
+    "json-mock": "json-server mock/db.json",
+    "json-mock-js": "json-server mock/db.js"
   },
   "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
     "@types/node": "^18.7.16",
     "autoprefixer": "^10.4.8",
     "browserslist": "^4.21.3",
@@ -33,7 +35,5 @@
     "vite-plugin-mock": "^2.9.6",
     "vite-plugin-utools": "*"
   },
-  "browserslist": [
-    "cover 99.5%"
-  ]
+  "browserslist": ["cover 99.5%"]
 }
