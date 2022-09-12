@@ -65,3 +65,11 @@ window.utools.screenCapture((imagebase64) => {
 window.utools.screenColorPick(({ hex, rgb }) => {
 // 取色完的回调
 })
+
+.npmrc
+
+registry=https://registry.npm.taobao.org/
+disturl=https://npm.taobao.org/dist
+electron_mirror=https://npm.taobao.org/mirrors/electron/
+electron_builder_binaries_mirror=http://npm.taobao.org/mirrors/electron-builder-binaries/
+auto-install-peers=true
